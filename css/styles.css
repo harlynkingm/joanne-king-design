@@ -2,3 +2,167 @@
     font-family: Avenir, sans-serif;
     src: url('font/AvenirLTStd-Roman.otf') format('opentype');
 }
+
+a{
+  text-decoration: none;
+}
+
+.center{
+  text-align: center;
+  align-content: center;
+}
+
+.title{
+  padding-top: 12px;
+  font-weight: 800;
+  color: #f14444;
+  margin: 0;
+}
+
+.title:hover{
+  opacity: .9;
+}
+
+.menu-icon{
+  float: right;
+  padding-top: 4px;
+  margin-right: 20px;
+  font-size:45px;
+  color: black;
+  opacity: .5;
+  transition: .2s;
+}
+
+.menu-icon:hover{
+  cursor: pointer;
+  color: #f14444;
+  opacity: .9;
+}
+
+.menu{
+  z-index: 99;
+  display: none;
+  position: fixed;
+  right: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: #f14444;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.2);
+}
+
+.menu li{
+  list-style: none;
+  text-align: right;
+  padding: 20px;
+  padding-right: 30px;
+  background-color: #f14444;
+  color: #fff;
+  font-weight: 800;
+  margin: 0;
+  border-bottom: 1px solid white;
+}
+
+.menu li:hover{
+  background-color: #f06e6e;
+}
+
+.rotated{
+  transform: rotate(90deg);
+  color: #f14444;
+  opacity: .9;
+}
+
+.subtitle{
+  padding: 0;
+  font-size: 13px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+
+header{
+  z-index: 100;
+  position: fixed;
+  background-color: #fff;
+  -webkit-box-shadow: 0px -1px 30px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px -1px 30px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px -1px 30px 0px rgba(0,0,0,0.2);
+}
+
+.section-title{
+  padding-top: 30px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+
+.big-icon{
+  font-size: 70px;
+}
+
+.big-icon:hover{
+  opacity: .8;
+}
+
+.contact-icon{
+  position:relative;
+  display: inline;
+  margin-right: 25px;
+}
+
+.contact-icon span{
+  position: absolute;
+  text-align: center;
+  top: 250%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.grid-1{
+  width: 22.5%;
+}
+
+.grid-2{
+  width: 37.5%;
+}
+
+.grid-3{
+  width: 40%;
+}
+
+@media (max-width: 550px) {
+
+  .mobile{
+    margin-top: -70px;
+    font-size: 40px;
+  }
+  
+  .big{
+    display: none;
+  }
+  
+  .menu, .first{
+    padding-top: 70px;
+  }
+  
+}
+
+@media (min-width: 550px) {
+  .mobile{
+    display: none;
+  }
+  
+  .menu, .first{
+    padding-top: 80px;
+  }
+}
+
+@media(max-width: 700px){
+  .title{
+    font-size: 19px;
+  }
+  
+  .subtitle{
+    font-size: 12px;
+  }
+}
