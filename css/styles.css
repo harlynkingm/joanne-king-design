@@ -107,7 +107,7 @@ header{
 .contact-icon{
   position:relative;
   display: inline;
-  margin-right: 25px;
+  margin-right: 60px;
 }
 
 .contact-icon span{
@@ -116,6 +116,11 @@ header{
   top: 250%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.grid{
+  border-bottom: 1px solid rgba(0, 0, 0, .3);
+  background-color: #eee;
 }
 
 .grid-1{
@@ -128,6 +133,28 @@ header{
 
 .grid-3{
   width: 40%;
+}
+
+.gallery h5{
+  margin: 0;
+  font-weight: 700;
+}
+
+.gallery img{
+  width: 100%;
+}
+
+footer{
+  margin-top: 50px;
+  height: 100px;
+  background-color: #f14444;
+}
+
+footer p{
+  line-height: 70px;
+  padding-right:20px;
+  padding-left: 20px;
+  color: #eee;
 }
 
 @media (max-width: 550px) {
@@ -148,6 +175,10 @@ header{
 }
 
 @media (min-width: 550px) {
+  .gallery h5{
+    padding-top: 150px;
+  }
+  
   .mobile{
     display: none;
   }
