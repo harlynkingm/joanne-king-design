@@ -21,6 +21,7 @@ a{
 
 .title:hover{
   opacity: .9;
+  cursor: pointer;
 }
 
 .menu-icon{
@@ -66,6 +67,7 @@ a{
 
 .menu li:hover{
   background-color: #f06e6e;
+  cursor: pointer;
 }
 
 .rotated{
