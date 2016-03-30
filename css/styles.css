@@ -160,11 +160,6 @@ footer p{
 }
 
 @media (max-width: 550px) {
-
-  .mobile{
-    margin-top: -70px;
-    font-size: 40px;
-  }
   
   .big{
     display: none;
@@ -172,6 +167,11 @@ footer p{
   
   .menu, .first{
     padding-top: 70px;
+  }
+  
+  .contact-icon{
+    margin-right: 0;
+    margin: 10px;
   }
   
 }
