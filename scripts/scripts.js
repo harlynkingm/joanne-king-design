@@ -24,6 +24,23 @@ jQuery(document).ready(function(){
     speed: 1000
   });
   
+  $('.overtext').mouseenter(function(){
+    $(this).css('opacity', 1);
+  });
+  
+  $('.overtext').mouseleave(function(){
+    $(this).css('opacity', 0);
+  });
+  
+  $('.overtext').click(function(){
+    if ($(this).css('opacity') == 1){
+      $(this).css('opacity', 0);
+    }
+    else{
+      $(this).css('opacity', 1);
+    }
+  });
+  
 //  $('.gallery img').click(function(){
 //    var obj = this;
 //    $(obj).css('transform', 'rotateY(90deg)');
