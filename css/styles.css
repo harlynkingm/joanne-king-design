@@ -92,30 +92,7 @@ header{
   padding-bottom: 30px;
 }
 
-.big-icon{
-  font-size: 70px;
-}
-
-.big-icon:hover{
-  opacity: .8;
-}
-
-.contact-icon{
-  position:relative;
-  display: inline;
-  margin: 30px;
-}
-
-.contact-icon span{
-  position: absolute;
-  text-align: center;
-  top: 250%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .grid{
-/*  border-bottom: 1px solid rgba(0, 0, 0, .3);*/
   background-color: #eee;
 }
 
@@ -212,10 +189,6 @@ footer p {
 }
 
 @media (max-width: 550px) {
-  
-  .big{
-    display: none;
-  }
   
   .contact-icon{
     margin-right: 0;
