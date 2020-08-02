@@ -190,6 +190,19 @@ footer p {
 
 @media (max-width: 550px) {
   
+  .overtext {
+    pointer-events: none;
+  }
+  
+  .big,
+  .header-image.big {
+    display: none;
+  }
+  
+  .first .header-image {
+    width: 100vw;
+  }
+  
   .contact-icon{
     margin-right: 0;
     margin: 10px;
