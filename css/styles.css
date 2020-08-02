@@ -77,27 +77,27 @@ body {
 }
 
 .section1 .section-image {
-  background-image: url("../render_images/IMG_3083.jpg");
+  background-image: url("../render_images/IMG_3083.JPG");
 }
 
 .section2 .section-image {
-  background-image: url("../render_images/E1111_113.jpg");
+  background-image: url("../render_images/E1111_113.JPG");
 }
 
 .section3 .section-image {
-  background-image: url("../render_images/IMG_5697.jpg");
+  background-image: url("../render_images/IMG_5697.JPG");
 }
 
 .section4 .section-image.half:nth-child(1) {
-  background-image: url("../render_images/IMG_0389.jpg");
+  background-image: url("../render_images/IMG_0389.JPG");
 }
 
 .section4 .section-image.half:nth-child(2) {
-  background-image: url("../render_images/IMG_1182.jpg");
+  background-image: url("../render_images/IMG_1182.JPG");
 }
 
 .section5 .section-image {
-  background-image: url("../render_images/IMG_3095.jpg");
+  background-image: url("../render_images/IMG_3095.JPG");
 }
 
 .section6 .section-image {
@@ -105,7 +105,7 @@ body {
 }
 
 .section7 .section-image {
-  background-image: url("../render_images/IMG_0098.jpg");
+  background-image: url("../render_images/IMG_0098.JPG");
 }
 
 .section7 {
@@ -194,6 +194,40 @@ body {
   position: absolute;
   transform: translateY(0.75em);
 }
+
+/*
+.info-section {
+  font-family: MillerDisplay;
+}
+
+.info-section .container {
+  left: 60%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.info-section h2 {
+  font-variant: small-caps;
+  font-size: 4em;
+  letter-spacing: 1.5px;
+}
+
+.info-section h3 {
+  letter-spacing: 1.5px;
+}
+
+.info-section .number {
+  font-weight: 500;
+  font-size: 5em;
+}
+
+.info-section .words {
+  font-weight: 100;
+  line-height: 2.8em;
+  font-variant: small-caps;
+}
+*/
+
 
 @media (max-width: 900px) {
   .section-title {
