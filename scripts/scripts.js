@@ -1,17 +1,4 @@
 jQuery(document).ready(function(){
-  
-//  $('#top').slick({
-//    arrows: false,
-//    infinite: true,
-//    slidesToShow: 3,
-//    centerMode: true,
-//    initialSlide: 1,
-//    variableWidth: true,
-//    lazyLoad: 'progressive',
-//    autoplay: false,
-//    autoplaySpeed: 5000,
-//    speed: 1000
-//  });
 
   $('.overtext').click(function(e) {
     let imageSource = e.target.previousSibling.previousSibling.src;
