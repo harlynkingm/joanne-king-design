@@ -153,6 +153,26 @@ header{
   margin-bottom: 30px;
 }
 
+.row.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.link-button {
+  color: white;
+  background-color: #595959;
+  padding: 10px;
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  float: left;
+  clear: both;
+}
+
+.link-button:hover {
+  color: rgba(256, 256, 256, 0.9);
+}
+
 footer{
   margin-top: 50px;
   height: 100px;
@@ -218,6 +238,10 @@ footer p {
   .title{
     padding-bottom: 15px;
     margin: auto;
+  }
+  
+  .row.flex-center {
+    display:  block;
   }
   
 }
